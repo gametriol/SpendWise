@@ -1,0 +1,16 @@
+# Streamlit configuration for SpendWise
+[theme]
+primaryColor = "#0F766E"       # Deep Teal accent
+backgroundColor = "#F8FAFC"    # Soft crisp light background
+secondaryBackgroundColor = "#FFFFFF" # Clean white cards and sidebar
+textColor = "#0F172A"          # Dark slate charcoal text
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 5              # 5 MB maximum upload size limit
+
+[browser]
+gatherUsageStats = false
